@@ -1,0 +1,104 @@
+/* Estilos personalizados para el chat */
+#chatbox {
+    height: 400px;
+    overflow-y: auto;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+.message {
+    max-width: 70%;
+    padding: 8px 12px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+.message.user {
+    background-color: #d1e7dd;
+    align-self: flex-end;
+}
+.message.bot {
+    background-color: #e7eaf6;
+    align-self: flex-start;
+}
+
+.card-header h4 {
+    text-align: center;
+}
+
+/* Estilo para los bloques de código */
+.code-block {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: "Courier New", monospace; /* Fuente monoespaciada */
+    font-size: 14px; /* Ajustar el tamaño del texto */
+    color: #333;
+    white-space: pre-wrap; /* Mantener saltos de línea y espacios */
+    word-wrap: break-word; /* Permitir que las palabras largas se dividan */
+    overflow-x: auto; /* Agregar scroll horizontal si el código es largo */
+}
+
+/* Para los mensajes de usuario y bot que no son código, mantener el formato también */
+.message {
+    margin-bottom: 10px;
+}
+
+
+.message.bot {
+    color: green; /* Color para los mensajes del bot */
+}
+
+pre {
+    font-family: "Courier New", monospace;
+    font-size: 14px;
+    color: #333;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 5px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+#fileInput{
+    display: flex;
+    width: 50%;
+}
+
+/* Aseguramos que el área de texto y el botón estén alineados correctamente */
+.input-group {
+    display: flex;
+    width: 100%;
+}
+
+#messageInput {
+    white-space: pre-wrap; /* Mantener los saltos de línea y los espacios */
+    word-wrap: break-word; /* Permitir que las palabras largas se rompan */
+    overflow-y: auto; /* Agregar un scroll vertical cuando sea necesario */
+    border-radius: 5px 0 0 5px;   /* Borde redondeado solo a la izquierda */
+    height: 100px;                 /* Ajusta la altura si lo deseas */
+    min-width: 200px;             /* Definir un ancho mínimo */
+}
+
+#sendButton {
+    border-radius: 0 5px 5px 0;   /* Borde redondeado solo a la derecha */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 80px;              /* Definir un tamaño mínimo para el botón */
+    padding: 10px 20px;           /* Asegurarse de que el botón no sea demasiado pequeño */
+    height: 40px;                 /* Ajusta la altura del botón para que se alinee con el campo de texto */
+    white-space: nowrap;          /* Evita que el texto del botón se divida */
+    resize: none;
+    margin-top: 2%;
+}
+
+.message a {
+    color: #007bff;  /* Azul */
+    text-decoration: none; /* Sin subrayado */
+}
+
+.message a:hover {
+    text-decoration: underline; /* Subrayado al pasar el cursor */
+}
+
