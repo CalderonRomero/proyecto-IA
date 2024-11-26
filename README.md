@@ -23,3 +23,7 @@ Este proyecto tiene como objetivo desarrollar un sistema automatizado para evalu
 ### Propósito Final
 
 Este sistema tiene como propósito no solo mejorar la eficiencia del proceso de evaluación, sino también servir como una herramienta didáctica para que los estudiantes comprendan mejor los aspectos técnicos y de calidad del código que desarrollan. Además, con el uso de inteligencia artificial, se busca reducir la carga administrativa del docente al automatizar las tareas repetitivas de calificación.
+
+## Derechos Reservados
+
+© 2024 **Las Innombrables**. Todos los derechos reservados. Este proyecto es de uso académico y no debe ser comercializado sin el consentimiento explícito del autor.
